@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.4.7",
+    "inquirer": "^12.5.0",
+    "pg": "^8.14.1"
+  },
+  "name": "company-emp-database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miyako24/Company-Emp-Database.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miyako24/Company-Emp-Database/issues"
+  },
+  "homepage": "https://github.com/Miyako24/Company-Emp-Database#readme"
+}
