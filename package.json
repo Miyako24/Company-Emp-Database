@@ -9,8 +9,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/Miyako24/Company-Emp-Database/issues"
   },
-  "homepage": "https://github.com/Miyako24/Company-Emp-Database#readme"
+  "homepage": "https://github.com/Miyako24/Company-Emp-Database#readme",
+  "devDependencies": {
+    "@types/pg": "^8.11.11"
+  }
 }

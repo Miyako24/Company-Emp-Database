@@ -1,4 +1,8 @@
-create table departments (
+DROP DATABASE IF EXISTS company_db;
+CREATE DATABASE company_db;
+\c company_db;
+
+create table department (
     id serial primary key,
     name varchar(30) unique not null
 );
@@ -7,15 +11,15 @@ create table role (
     id serial primary key,
     title varchar(30) unique not null,
     salary Decimal not null,
-    department_id Integer NOT Null 
-    foreign key (department_id) references departments(id) on delete cascade
+    department_id Integer NOT Null,
+    foreign key (department_id) references department(id) on delete cascade
 );
 
 create table employee (
     id serial primary key,
     first_name varchar(30) not null,
     last_name varchar(30) not null,
-    role_id Integer NOT Null
+    role_id Integer NOT Null,
     manager_id Integer,
     foreign key (role_id) references role(id) on delete set null,
     foreign key (manager_id) references employee(id) on delete cascade

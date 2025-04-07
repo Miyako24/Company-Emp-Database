@@ -1,5 +1,9 @@
+\c company_db;
+
 INSERT INTO department (name) VALUES ('HR'), ('Engineering'), ('Sales'), ('Fiance'), ('Customer Service');
-insert into role (title, salary, department_id) values 
+
+insert into role (title, salary, department_id) 
+values 
 ('HR Manager', 60000, 1), 
 ('Software Engineer', 80000, 2), 
 ('Sales Associate', 50000, 3), 
