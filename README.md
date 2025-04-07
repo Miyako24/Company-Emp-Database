@@ -31,7 +31,7 @@ test included running the application via terminal, running the code by first ru
 
 ## Demo Video
 
-[Watch Demo video here](https://drive.google.com/file/d/1w7gPekFN_jqNF2xuhO2JOA-swGgXKqP-/view)
+[Watch Demo video here](https://bootcampspot.instructure.com/courses/6693/assignments/91404/submissions/88241?comment_id=1258710&download=3523150)
 
 For any questions, contact me at [via Email](mailto:dreamgardens24@gmail.com).  
 GitHub: [Miyako24](https://github.com/Miyako24/Company-Emp-Database) 
